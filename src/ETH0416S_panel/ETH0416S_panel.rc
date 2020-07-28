@@ -1,0 +1,475 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ETH0416S_panel.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ETH0416S_panel.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 394, 313
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "武汉思德立科技有限公司"
+FONT 12, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TRANSFER_TCP,130,129,40,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FIFO_EXE,269,144,12,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_CMD_IDLE,309,116,32,26,ES_MULTILINE | ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "←X-",IDC_BT_X_STEP_P,15,39,31,17
+    PUSHBUTTON      "↑Y-",IDC_BT_Y_STEP_P,46,8,21,24
+    PUSHBUTTON      "↓Y+",IDC_BT_Y_STEP_M,46,32,21,24
+    GROUPBOX        "手动控制",IDC_STATIC,3,2,151,56
+    EDITTEXT        IDC_EDIT_STEP_XY,101,14,34,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POSITION_X,300,14,48,13,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_Y,300,28,48,13,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "当前位置",IDC_STATIC,280,2,114,48
+    LTEXT           "X轴",IDC_STATIC,283,17,13,8
+    LTEXT           "Y轴",IDC_STATIC,283,31,13,8
+    LTEXT           "步长",IDC_STATIC,83,16,17,8
+    LTEXT           "mm",IDC_STATIC,137,16,13,8
+    PUSHBUTTON      "X+→",IDC_BT_X_STEP_M,67,39,31,17
+    LTEXT           "mm/°",IDC_STATIC,348,15,22,8
+    LTEXT           "mm/°",IDC_STATIC,348,30,22,8
+    PUSHBUTTON      "退出",IDC_quit,328,266,62,20
+    PUSHBUTTON      "FIFO-push",IDC_START_ARC,38,210,51,11
+    PUSHBUTTON      "光纤激光器初始化",IDC_BT_TESTIO3,4,260,65,14
+    PUSHBUTTON      "FIFO执行-开",IDC_BT_TESTIO4,182,211,51,11
+    EDITTEXT        IDC_8AXIS_STR,183,197,196,12,ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,291,165,22
+    PUSHBUTTON      "FIFO指令清除",IDC_CLEAR_FIFO,303,211,51,11
+    PUSHBUTTON      "FIFO执行-关",IDC_STOP_FIFO,236,211,51,11
+    EDITTEXT        IDC_LINK_CNT,222,36,53,12,ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER
+    PUSHBUTTON      "FIFO-clsePWM",IDC_START_ARC3,38,198,51,11
+    PUSHBUTTON      "画矩形",IDC_BT_TESTIO5,91,260,74,14
+    LTEXT           "CTRL+ALT+SHIFT+P进入设置画面",IDC_STATIC,12,60,115,8
+    CONTROL         IDB_BITMAP_SY,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,72,380,124,WS_EX_TRANSPARENT
+    LTEXT           "(FIFO执行开关,自动开)\r\n一般不需要调用",IDC_STATIC,204,223,78,19
+    LTEXT           "(全部停止执行)",IDC_STATIC,305,223,49,8
+    PUSHBUTTON      "开光纤激光器",IDC_BT_TESTIO6,4,275,65,14
+    EDITTEXT        IDC_EDIT1,121,276,44,14,ES_AUTOHSCROLL
+    LTEXT           "速度p/s",IDC_STATIC,94,278,25,8
+    PUSHBUTTON      "振镜鼠标[开/关]",IDC_BT_MOUSE_FO,242,296,74,14
+    LTEXT           "Static",IDC_MSG_MOUSE,170,299,65,8
+    PUSHBUTTON      "开始投影鼠标轨迹",IDC_BUTTON2,240,260,77,14
+    PUSHBUTTON      "停止投影鼠标轨迹",IDC_BUTTON3,240,278,77,14
+END
+
+IDD_DIALOG_PARAMETERS DIALOGEX 0, 0, 307, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "内部参数设置"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,175,129,59,18
+    EDITTEXT        IDC_SPEED,58,31,48,13,ES_AUTOHSCROLL
+    LTEXT           "工作速度",IDC_STATIC,13,33,33,8
+    EDITTEXT        IDC_ACCTIME,58,61,48,13,ES_AUTOHSCROLL
+    LTEXT           "加减速时间",IDC_STATIC,13,64,41,8
+    LTEXT           "s",IDC_STATIC,108,63,8,8
+    EDITTEXT        IDC_START_SPEED,58,16,48,13,ES_AUTOHSCROLL
+    LTEXT           "起始速度",IDC_STATIC,13,18,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,108,17,33,8
+    EDITTEXT        IDC_PPM_X,58,76,48,13,ES_AUTOHSCROLL
+    LTEXT           "脉冲当量",IDC_STATIC,13,77,33,8
+    LTEXT           "p/mm(°)",IDC_STATIC,108,76,34,8
+    EDITTEXT        IDC_SPEED2,195,31,48,13,ES_AUTOHSCROLL
+    LTEXT           "工作速度",IDC_STATIC,150,33,33,8
+    EDITTEXT        IDC_ACCTIME2,195,61,48,13,ES_AUTOHSCROLL
+    LTEXT           "加减速时间",IDC_STATIC,150,64,41,8
+    LTEXT           "s",IDC_STATIC,245,63,8,8
+    EDITTEXT        IDC_START_SPEED2,195,16,48,13,ES_AUTOHSCROLL
+    LTEXT           "起始速度",IDC_STATIC,150,18,33,8
+    EDITTEXT        IDC_PPM_Y,195,76,48,13,ES_AUTOHSCROLL
+    LTEXT           "脉冲当量",IDC_STATIC,150,78,33,8
+    LTEXT           "p/mm(°)",IDC_STATIC,245,77,34,8
+    GROUPBOX        "X",IDC_STATIC,11,10,133,97
+    GROUPBOX        "Y",IDC_STATIC,147,10,142,97
+    EDITTEXT        IDC_SPEED4,58,46,48,13,ES_AUTOHSCROLL
+    LTEXT           "回零速度",IDC_STATIC,13,48,33,8
+    EDITTEXT        IDC_SPEED5,195,46,48,13,ES_AUTOHSCROLL
+    LTEXT           "回零速度",IDC_STATIC,150,49,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,108,33,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,108,48,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,245,17,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,245,32,33,8
+    LTEXT           "mm(°)/s",IDC_STATIC,245,48,33,8
+    PUSHBUTTON      "保存&退出",IDOK,68,129,59,18
+    EDITTEXT        IDC_cPum_Y,194,91,48,13,ES_AUTOHSCROLL
+    LTEXT           "编码器当量",IDC_STATIC,149,92,41,8
+    LTEXT           "c/mm(°)",IDC_STATIC,245,92,28,8
+    EDITTEXT        IDC_cPum_X,58,91,48,13,ES_AUTOHSCROLL
+    LTEXT           "编码器当量",IDC_STATIC,13,92,41,8
+    LTEXT           "c/mm(°)",IDC_STATIC,109,92,28,8
+END
+
+IDD_DIALOG_DEBUG DIALOGEX 0, 0, 433, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "硬件调试"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,365,241,50,25
+    EDITTEXT        IDC_EDIT_DIN1,141,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN2,159,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN3,175,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN4,193,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN5,211,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN6,227,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN7,245,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN8,263,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN9,281,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN10,299,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN11,315,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN12,333,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN13,351,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN14,367,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN15,385,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN16,403,28,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "1",IDC_STATIC,147,18,11,10
+    LTEXT           "2",IDC_STATIC,163,18,11,10
+    LTEXT           "3",IDC_STATIC,181,18,11,10
+    LTEXT           "4",IDC_STATIC,199,18,11,10
+    LTEXT           "5",IDC_STATIC,215,18,11,10
+    LTEXT           "6",IDC_STATIC,233,18,11,10
+    LTEXT           "7",IDC_STATIC,251,18,11,10
+    LTEXT           "8",IDC_STATIC,267,18,11,10
+    LTEXT           "9",IDC_STATIC,285,18,11,10
+    LTEXT           "10",IDC_STATIC,301,18,11,10
+    LTEXT           "11",IDC_STATIC,319,18,11,10
+    LTEXT           "12",IDC_STATIC,335,18,11,10
+    LTEXT           "13",IDC_STATIC,353,18,11,10
+    LTEXT           "14",IDC_STATIC,369,18,11,10
+    LTEXT           "15",IDC_STATIC,387,18,11,10
+    LTEXT           "16",IDC_STATIC,403,18,11,10
+    GROUPBOX        "输入",IDC_STATIC,137,6,285,41
+    GROUPBOX        "限位/零位",IDC_STATIC,9,6,117,89
+    LTEXT           "X轴",IDC_STATIC,22,31,17,10
+    LTEXT           "Y轴",IDC_STATIC,22,46,17,10
+    LTEXT           "Z轴",IDC_STATIC,22,61,17,10
+    LTEXT           "A轴",IDC_STATIC,22,74,17,10
+    EDITTEXT        IDC_EDIT_DIN17,48,29,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN18,48,44,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN19,48,58,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN20,48,73,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN21,73,29,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN22,73,44,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN23,73,58,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN24,73,73,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "+",IDC_STATIC,52,16,11,10
+    LTEXT           "-",IDC_STATIC,77,16,11,10
+    EDITTEXT        IDC_EDIT_DIN25,97,29,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN26,97,44,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN27,97,58,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIN28,97,73,16,15,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "0",IDC_STATIC,102,16,11,10
+    PUSHBUTTON      "←X-",IDC_BT_X_STEP_P,25,239,41,21
+    PUSHBUTTON      "↑Y-",IDC_BT_Y_STEP_P,67,201,28,30
+    PUSHBUTTON      "↓Y+",IDC_BT_Y_STEP_M,67,230,28,30
+    GROUPBOX        "手动控制",IDC_STATIC,7,185,267,82
+    PUSHBUTTON      "←Z-",IDC_BT_Z_STEP_P,143,239,41,21
+    PUSHBUTTON      "Z+→",IDC_BT_Z_STEP_M,213,239,41,21
+    PUSHBUTTON      "↑A-",IDC_BT_A_STEP_P,185,201,28,30
+    PUSHBUTTON      "↓A+",IDC_BT_A_STEP_M,185,230,28,30
+    PUSHBUTTON      "X+→",IDC_BT_X_STEP_M,95,239,41,21
+    EDITTEXT        IDC_POSITION_X,36,113,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_Y,36,130,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_Z,36,147,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_A,36,165,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "当前计数位置",IDC_STATIC,9,102,152,82
+    LTEXT           "X轴",IDC_STATIC,13,117,17,10
+    LTEXT           "Y轴",IDC_STATIC,13,134,17,10
+    LTEXT           "Z轴",IDC_STATIC,13,151,17,10
+    LTEXT           "A轴",IDC_STATIC,13,168,17,10
+    PUSHBUTTON      "清零",IDC_RESET_Y,129,129,29,16
+    PUSHBUTTON      "清零",IDC_RESET_X,129,112,29,16
+    PUSHBUTTON      "清零",IDC_RESET_Z,129,146,29,16
+    PUSHBUTTON      "清零",IDC_RESET_A,129,163,29,16
+    LTEXT           "p",IDC_STATIC,104,114,18,10
+    LTEXT           "p",IDC_STATIC,104,133,18,10
+    LTEXT           "p",IDC_STATIC,104,149,18,10
+    LTEXT           "p",IDC_STATIC,104,166,18,10
+    EDITTEXT        IDC_POSITION_X2,196,113,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_Y2,196,130,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_Z2,196,147,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_POSITION_A2,196,165,64,16,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "当前编码器位置",IDC_STATIC,169,102,152,82
+    LTEXT           "X轴",IDC_STATIC,173,117,17,10
+    LTEXT           "Y轴",IDC_STATIC,173,134,17,10
+    LTEXT           "Z轴",IDC_STATIC,173,151,17,10
+    LTEXT           "A轴",IDC_STATIC,173,168,17,10
+    PUSHBUTTON      "清零",IDC_RESET_Y2,289,129,29,16
+    PUSHBUTTON      "清零",IDC_RESET_X2,289,112,29,16
+    PUSHBUTTON      "清零",IDC_RESET_Z2,289,146,29,16
+    PUSHBUTTON      "清零",IDC_RESET_A2,289,163,29,16
+    LTEXT           "p",IDC_STATIC,264,114,18,10
+    LTEXT           "p",IDC_STATIC,264,133,18,10
+    LTEXT           "p",IDC_STATIC,264,149,18,10
+    LTEXT           "p",IDC_STATIC,264,166,18,10
+    PUSHBUTTON      "1",IDC_BT_Y1,140,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y2,156,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y3,172,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y4,190,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y5,207,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y6,225,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y7,243,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y8,261,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y9,279,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y10,297,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y11,315,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y12,333,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y13,351,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y14,369,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y15,387,79,16,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "1",IDC_BT_Y16,404,79,16,15,0,WS_EX_STATICEDGE
+    LTEXT           "1",IDC_STATIC,145,68,11,10
+    LTEXT           "2",IDC_STATIC,161,68,11,10
+    LTEXT           "3",IDC_STATIC,179,68,11,10
+    LTEXT           "4",IDC_STATIC,197,68,11,10
+    LTEXT           "5",IDC_STATIC,213,68,11,10
+    LTEXT           "6",IDC_STATIC,231,68,11,10
+    LTEXT           "7",IDC_STATIC,249,68,11,10
+    LTEXT           "8",IDC_STATIC,265,68,11,10
+    LTEXT           "9",IDC_STATIC,283,68,11,10
+    LTEXT           "10",IDC_STATIC,299,68,11,10
+    LTEXT           "11",IDC_STATIC,317,68,11,10
+    LTEXT           "12",IDC_STATIC,336,68,11,10
+    LTEXT           "13",IDC_STATIC,353,68,11,10
+    LTEXT           "14",IDC_STATIC,372,68,11,10
+    LTEXT           "15",IDC_STATIC,389,68,11,10
+    LTEXT           "16",IDC_STATIC,406,68,11,10
+    GROUPBOX        "输出",IDC_STATIC,137,52,285,43
+    PUSHBUTTON      "ALL1",IDC_BT_ALL1,232,49,33,15
+    PUSHBUTTON      "ALL0",IDC_BT_ALL0,297,49,33,15
+END
+
+IDD_DLG_IP DIALOGEX 0, 0, 154, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IP-MAC地址设置"
+FONT 12, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,70,50,14
+    PUSHBUTTON      "取消",IDCANCEL,80,70,50,14
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,42,11,106,12
+    LTEXT           "IP地址:",-1,4,14,25,8
+    LTEXT           "00-11-12-35-10-88",-1,48,49,67,9
+    CONTROL         "Sample-mask-0001",1271,"MfcMaskedEdit",WS_BORDER | WS_TABSTOP | 0x80,42,32,106,12
+    LTEXT           "MAC地址:",-1,3,33,33,8
+    LTEXT           "设置成功后，断电后启动生效！",-1,36,58,101,9
+END
+
+IDD_TARGET_IP DIALOGEX 0, 0, 174, 84
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "目标（板卡）IP"
+FONT 12, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,35,50,14
+    PUSHBUTTON      "取消",IDCANCEL,83,35,50,14
+    CONTROL         "",IDC_TARGET_IP,"SysIPAddress32",WS_TABSTOP,30,5,97,12
+    LTEXT           "IP地址:",-1,3,6,25,8
+    LTEXT           "  1.控制卡默认IP是192.168.1.55\r\n  2.进入软件修改了IP，电脑本机要改到一个网段\r\n     (IP地址前3个字节相同)",-1,4,56,165,24
+    GROUPBOX        "注意",-1,2,46,170,38
+    CONTROL         "",IDC_TARGET_IP2,"SysIPAddress32",WS_TABSTOP,30,19,97,12
+    LTEXT           "IP地址2:",-1,0,20,29,8
+    LTEXT           "不用时给全0",-1,132,20,41,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "ETH0416S_panel Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ETH0416S_panel"
+            VALUE "LegalCopyright", "版权所有 (C) 2006"
+            VALUE "OriginalFilename", "ETH0416S_panel.EXE"
+            VALUE "ProductName", "ETH0416S_panel 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+IDB_BITMAP_SY           BITMAP                  "res\\sy.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_PARAMETERS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_DIALOG_DEBUG, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_IP, DIALOG
+    BEGIN
+    END
+
+    IDD_TARGET_IP, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_IP DLGINIT
+BEGIN
+    1271, 0x37c, 107, 0
+0x4d3c, 0x4346, 0x614d, 0x6b73, 0x6465, 0x6445, 0x7469, 0x535f, 0x6c65, 
+0x6365, 0x4274, 0x4779, 0x6f72, 0x7075, 0x463e, 0x4c41, 0x4553, 0x2f3c, 
+0x464d, 0x4d43, 0x7361, 0x656b, 0x4564, 0x6964, 0x5f74, 0x6553, 0x656c, 
+0x7463, 0x7942, 0x7247, 0x756f, 0x3e70, 0x4d3c, 0x4346, 0x614d, 0x6b73, 
+0x6465, 0x6445, 0x7469, 0x4d5f, 0x7361, 0x3e6b, 0x2222, 0x2f3c, 0x464d, 
+0x4d43, 0x7361, 0x656b, 0x4564, 0x6964, 0x5f74, 0x614d, 0x6b73, "\076" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ETH0416S_panel.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

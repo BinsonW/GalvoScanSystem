@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ETH6608_Panel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSP11D2.tmp" with contents
+[
+..\..\debug\ETH6608n.lib /nologo /subsystem:windows /incremental:yes /pdb:"../../debug/ETH6608_Panel.pdb" /debug /machine:I386 /out:"../../debug/ETH6608_Panel.exe" /pdbtype:sept 
+".\Debug\ETH6608_Panel.obj"
+".\Debug\ETH6608_PanelDlg.obj"
+".\Debug\MotionPanel.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ETH6608_Panel.res"
+"\harddisk\E-disk\project\arm-yd\DLL,sampleÈí¼þ-9260\debug\ETH6608n.lib"
+]
+Creating command line "link.exe @C:\Users\cendom\AppData\Local\Temp\RSP11D2.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ETH6608_Panel.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

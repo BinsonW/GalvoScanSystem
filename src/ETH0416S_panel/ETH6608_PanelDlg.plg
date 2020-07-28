@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ETH6608_PanelDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSP40A2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ETH6608_PanelDlg.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Harddisk\E-disk\project\arm-yd\DLL,sampleÈí¼þ-9260\src\ETH6608_Panel\ETH6608_PanelDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\cendom\AppData\Local\Temp\RSP40A2.tmp" 
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSP40A3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ETH6608_PanelDlg.pdb" /debug /machine:I386 /out:"Debug/ETH6608_PanelDlg.exe" /pdbtype:sept 
+".\Debug\ETH6608_PanelDlg.obj"
+]
+Creating command line "link.exe @C:\Users\cendom\AppData\Local\Temp\RSP40A3.tmp"
+<h3>Output Window</h3>
+Compiling...
+ETH6608_PanelDlg.cpp
+c:\harddisk\e-disk\project\arm-yd\dll,sampleÈí¼þ-9260\src\eth6608_panel\eth6608_paneldlg.h(11) : fatal error C1083: Cannot open include file: 'ETH6608API.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ETH6608_PanelDlg.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

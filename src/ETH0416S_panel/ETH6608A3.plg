@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ETH6608A3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSPC88.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ETH6608A3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH6608A3\ETH6608A3.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH6608A3\ETH6608A3Dlg.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH6608A3\MotionPanel.cpp"
+]
+Creating command line "cl.exe @C:\Users\cendom\AppData\Local\Temp\RSPC88.tmp" 
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSPC98.tmp" with contents
+[
+..\..\debug\ETH6608n.lib SkinH.lib /nologo /subsystem:windows /incremental:yes /pdb:"../../debug/ETH6608A3.pdb" /debug /machine:I386 /out:"../../debug/ETH6608A3.exe" /pdbtype:sept 
+".\Debug\ColorEdit.obj"
+".\Debug\DialogParameters.obj"
+".\Debug\ETH6608A3.obj"
+".\Debug\ETH6608A3Dlg.obj"
+".\Debug\MotionPanel.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ETH6608A3.res"
+"\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\debug\ETH6608n.lib"
+]
+Creating command line "link.exe @C:\Users\cendom\AppData\Local\Temp\RSPC98.tmp"
+<h3>Output Window</h3>
+Compiling...
+ETH6608A3.cpp
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(92) : warning C4518: 'void ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(92) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(105) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(105) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(116) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(116) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(128) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(128) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(140) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(140) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(152) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(152) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(164) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(164) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(167) : warning C4518: 'void ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(167) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(101) : error C2039: 'size_t' : is not a member of 'std'
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(228) : error C2027: use of undefined type 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(220) : see declaration of 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(237) : see reference to class template instantiation 'Poco::AlignedCharArrayUnion<T1,T2,T4,`template-parameter262'>' being compiled
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'comment' : undeclared identifier
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'linker' : undeclared identifier
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : fatal error C1004: unexpected end of file found
+ETH6608A3Dlg.cpp
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(92) : warning C4518: 'void ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(92) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(105) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(105) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(116) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(116) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(128) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(128) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(140) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(140) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(152) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(152) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(164) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(164) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(167) : warning C4518: 'void ' : storage-class or type specifier(s) unexpected here; ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\eth6608napi.h(167) : warning C4230: anachronism used : modifiers/qualifiers interspersed, qualifier ignored
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(101) : error C2039: 'size_t' : is not a member of 'std'
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(228) : error C2027: use of undefined type 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(220) : see declaration of 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(237) : see reference to class template instantiation 'Poco::AlignedCharArrayUnion<T1,T2,T4,`template-parameter262'>' being compiled
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'comment' : undeclared identifier
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'linker' : undeclared identifier
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : fatal error C1004: unexpected end of file found
+MotionPanel.cpp
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(101) : error C2039: 'size_t' : is not a member of 'std'
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(228) : error C2027: use of undefined type 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(220) : see declaration of 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(237) : see reference to class template instantiation 'Poco::AlignedCharArrayUnion<T1,T2,T4,`template-parameter262'>' being compiled
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'comment' : undeclared identifier
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'linker' : undeclared identifier
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : fatal error C1004: unexpected end of file found
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ETH6608A3.exe - 42 error(s), 32 warning(s)
+</pre>
+</body>
+</html>

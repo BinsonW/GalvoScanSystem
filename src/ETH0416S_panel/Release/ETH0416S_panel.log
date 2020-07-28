@@ -1,0 +1,120 @@
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ColorEdit.cpp
+  DialogDebug.cpp
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogDebug.cpp(179,6): warning C4101: “iRet”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogDebug.cpp(179,24): warning C4101: “DINvalue”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogDebug.cpp(227,20): warning C4101: “m_iSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogDebug.cpp(227,6): warning C4101: “m_iStartSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogDebug.cpp(263,6): warning C4101: “m_iStepXY”: 未引用的局部变量
+  DialogParameters.cpp
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(202,16): warning C4018: “<=”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(209,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(255,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(257,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(272,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(286,13): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(186,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(214,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(217,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(235,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(263,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(161,6): warning C4101: “iRet”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(366,16): warning C4018: “<=”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(373,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(419,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(421,18): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(436,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(450,13): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(552,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(554,18): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(569,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(583,13): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(596,13): warning C4018: “<”: 有符号/无符号不匹配
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(598,38): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(350,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(378,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(381,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(399,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(427,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(520,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(533,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(560,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\DialogParameters.cpp(319,6): warning C4101: “iRet”: 未引用的局部变量
+  DialogTargetIP.cpp
+  DlgIPSetting.cpp
+  ETH0416S_panel.cpp
+  MotionPanel.cpp
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(203,19): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(447,33): warning C4101: “tempPosA”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(447,15): warning C4101: “tempPosY”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(447,6): warning C4101: “tempPosX”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(447,24): warning C4101: “tempPosZ”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(472,19): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(488,19): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(503,19): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(737,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(535,20): warning C4101: “m_iSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(535,6): warning C4101: “m_iStartSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(566,6): warning C4101: “m_iStepXY”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(827,15): warning C4101: “buffercmd”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(826,33): warning C4101: “tempPosA”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(829,20): warning C4101: “m_iSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(829,6): warning C4101: “m_iStartSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(830,6): warning C4101: “m_iStepXY”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(826,24): warning C4101: “tempPosZ”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(952,19): warning C4101: “yCheckDone”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(952,8): warning C4101: “xCheckDone”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(952,30): warning C4101: “zCheckDone”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(952,41): warning C4101: “aCheckDone”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1011,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1015,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1018,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1021,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1025,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1029,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1032,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1058,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1061,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1064,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1068,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1071,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1074,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1079,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1082,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1085,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1090,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1093,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1096,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1329,9): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1330,9): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1331,9): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1312,6): warning C4101: “deltaSx”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1313,6): warning C4101: “AccStepNum”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1310,20): warning C4101: “m_iSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1315,6): warning C4101: “i”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1310,6): warning C4101: “m_iStartSpeed”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1313,17): warning C4101: “AccVdeta”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1311,6): warning C4101: “m_iStepXY”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1393,11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1418,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1429,42): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1430,42): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1461,7): warning C4101: “FifoStatus”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1460,6): warning C4101: “sizeCMD”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1680,7): warning C4101: “FifoStatus”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1679,6): warning C4101: “sizeCMD”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1699,7): warning C4101: “FifoStatus”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1698,6): warning C4101: “sizeCMD”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1752,7): warning C4101: “FifoStatus”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1751,7): warning C4101: “sizeCMD”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1791,8): warning C4101: “FifoStatus”: 未引用的局部变量
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\MotionPanel.cpp(1790,7): warning C4101: “sizeCMD”: 未引用的局部变量
+  PictureEx.cpp
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\PictureEx.cpp(528,25): warning C4244: “=”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+  xShadeButton.cpp
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\xShadeButton.cpp(871,31): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\xShadeButton.cpp(872,35): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\xShadeButton.cpp(1456,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  ETH0416S_panel.vcxproj -> E:\Code\yrjGolvoMeter\panel代码vs2010工程fpga - 客户\src\ETH0416S_panel\../../bin/ETH0416S_panel.exe

@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by ETH0416S_panel.rc
+//
+#define HIDC_RADIO_A                    0x8081042e    // IDD_DIALOG1
+#define HIDC_RADIO_Z                    0x8081042d    // IDD_DIALOG1

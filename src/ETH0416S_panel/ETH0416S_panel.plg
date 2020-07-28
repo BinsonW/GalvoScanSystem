@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ETH0416S_panel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ETH0416S_panel.res" /d "_DEBUG" "F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panel.rc"" 
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSPB7C7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ETH0416S_panel.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ColorEdit.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\DialogParameters.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panel.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp"
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\MotionPanel.cpp"
+]
+Creating command line "cl.exe @C:\Users\cendom\AppData\Local\Temp\RSPB7C7.tmp" 
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSPB7C8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ETH0416S_panel.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\cendom\AppData\Local\Temp\RSPB7C8.tmp" 
+Creating temporary file "C:\Users\cendom\AppData\Local\Temp\RSPB7C9.tmp" with contents
+[
+..\..\debug\ETH0416S.lib SkinH.lib /nologo /subsystem:windows /incremental:yes /pdb:"../../debug/ETH0416S_panel.pdb" /debug /machine:I386 /out:"../../debug/ETH0416S_panel.exe" /pdbtype:sept 
+".\Debug\ColorEdit.obj"
+".\Debug\DialogParameters.obj"
+".\Debug\ETH0416S_panel.obj"
+".\Debug\ETH0416S_panelDlg.obj"
+".\Debug\MotionPanel.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ETH0416S_panel.res"
+]
+Creating command line "link.exe @C:\Users\cendom\AppData\Local\Temp\RSPB7C9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ColorEdit.cpp
+DialogParameters.cpp
+ETH0416S_panel.cpp
+ETH0416S_panelDlg.cpp
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4521) : warning C4101: 'c2' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4521) : warning C4101: 'c3' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4521) : warning C4101: 'c4' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4521) : warning C4101: 'c5' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4620) : warning C4101: 'tempSpeed' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4663) : warning C4101: 'tempSpeed' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4808) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4803) : warning C4101: 'delta_acc_time' : unreferenced local variable
+F:\project\6045bl-card\cortex-m3\poco-vc\ours\DLL,demo软件\src\ETH0416S_panel\ETH0416S_panelDlg.cpp(4852) : warning C4101: 'i' : unreferenced local variable
+MotionPanel.cpp
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(101) : error C2039: 'size_t' : is not a member of 'std'
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(171) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(172) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(173) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2485: 'align' : unrecognized extended attribute
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(174) : error C2059: syntax error : '('
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(228) : error C2027: use of undefined type 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(220) : see declaration of 'SizerImpl'
+        f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\alignment.h(237) : see reference to class template instantiation 'Poco::AlignedCharArrayUnion<T1,T2,T4,`template-parameter262'>' being compiled
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'comment' : undeclared identifier
+f:\project\6045bl-card\cortex-m3\poco-vc\ours\dll,demo软件\include\poco\net\net.h(111) : error C2065: 'linker' : undeclared identifier
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+c:\program files (x86)\microsoft visual studio\vc98\include\winsock2.h(70) : fatal error C1004: unexpected end of file found
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ETH0416S_panel.exe - 14 error(s), 9 warning(s)
+</pre>
+</body>
+</html>
