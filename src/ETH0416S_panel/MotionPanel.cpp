@@ -1110,6 +1110,23 @@ void CMotionPanel::OnTimer(UINT_PTR nIDEvent)
 					k++;
 				}
 			}
+			for (auto p = pxy.end(); p != pxy.begin(); p--) {
+
+
+				auto x = p->x * 60;
+				auto y = p->y * 60; // 转换后的 振镜目标坐标
+
+				ScanMoveTo(cmdArr2, &k, A, POINT{ x,y }, m_iScanSpeedpps); // 关激光状态从当前点到 鼠标对于点
+
+				if (69 == k) {
+					Cen_pushDllFifo_A(cmdArr2, k);
+					memset(cmdArr2, 0, sizeof(FifoCmd) * 200000);
+					k = 0;
+				}
+				else {
+					k++;
+				}
+			}
 			LeaveCriticalSection(&(m_criSecEvent));
 		}
 		if (nIDEvent == 2)

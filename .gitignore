@@ -16,3 +16,6 @@
 *.out
 *.app
 /.vs/main
+
+#VS
+*.ipch
